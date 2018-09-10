@@ -2,16 +2,17 @@ body{
 	background: #ddd;
 	padding-top: 1.5em;
 	padding-bottom: 8em;
+	overflow-x: hidden;
+}
+
+.container {
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, p, a{
 	font-size: 18px;
 	line-height: 1.4;
-  font-weight: 400;
-}
-
-
--webkit-margin-after: 0em;
+  	font-weight: 400;
 }
 
 img {
