@@ -1,8 +1,16 @@
+@font-face {
+    font-family: 'happy_times';
+    src: url('fonts/happy-times-at-the-ikob-webfont.woff2') format('woff2'),
+         url('fonts/happy-times-at-the-ikob-webfont.woff') format('woff');
+}
+
+
 body{
-	background: #ddd;
+	background: #FFEC00;
 	padding-top: 1.5em;
 	padding-bottom: 8em;
 	overflow-x: hidden;
+	font-family: 'happy_times';
 }
 
 .container {
@@ -37,7 +45,7 @@ h6 {
 
 
 a {
-	text-decoration: underline;
+	text-decoration: none;
 	color: initial;
 } 
 
@@ -51,6 +59,11 @@ ul {
 
 ul i, .grey, small, small a {
 	color: #aaa;
+}
+
+
+.container-fluid, .col-sm-3, .col-md-3{
+	padding-left: 0;
 }
 
 .nav {
@@ -78,9 +91,5 @@ ul i, .grey, small, small a {
 @media (max-width: 767px) {
 	.row-sm-12{
 		flex-direction: column;
-	}
-	
-	h1, h2, h3, h4, h5, h6, p, a{
-	font-size: 16px;
 	}
 }
