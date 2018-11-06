@@ -1,16 +1,15 @@
 @font-face {
-    font-family: 'happy_times';
-    src: url('fonts/happy-times-at-the-ikob-webfont.woff2') format('woff2'),
-         url('fonts/happy-times-at-the-ikob-webfont.woff') format('woff');
+    font-family: 'gt_americalight';
+    src: url('../fonts/gt-america-light-webfont.woff2') format('woff2'),
+         url('../fonts/gt-america-light-webfont.woff') format('woff');
 }
 
-
 body{
-	background: #FFEC00;
+	background: #f45844;
 	padding-top: 1.5em;
 	padding-bottom: 8em;
 	overflow-x: hidden;
-	font-family: 'happy_times';
+	font-family: 'gt_americalight';
 }
 
 .container {
@@ -18,10 +17,9 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6, p, a{
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.4;
-  	font-weight: 400;
-  	color: #222;
+  	color: #2f292b;
 }
 
 img {
@@ -44,14 +42,19 @@ h6 {
 }
 
 
-a {
+a, .arrow {
+	color: #e7b300;
 	text-decoration: none;
-	color: initial;
 } 
 
 a:hover {
-	color: #222;
- 	padding-left: 15px;
+	color: #f43530;
+	text-decoration: none;
+}
+
+.arrow:hover{
+	color: #f43530;
+	text-decoration: none;
 }
 
 ul {
@@ -75,9 +78,6 @@ ul i, .grey, small, small a {
 	padding-right: 1.5em;
 }
 
-.nav span:hover .arrow{
-	color:blue;
-}
 
 .cv-row{
 	display: flex;
@@ -96,22 +96,14 @@ ul i, .grey, small, small a {
 	.row-sm-12{
 		flex-direction: column;
 	}
-}
 
-@media (min-width: 1200px) {
 	h1, h2, h3, h4, h5, h6, p, a{
-		font-size: 20px;
+		font-size: 18px;
 	}
 }
 
 @media (min-width: 1500px) {
 	h1, h2, h3, h4, h5, h6, p, a{
 		font-size: 22px;
-	}
-}
-
-@media (min-width: 1800px) {
-	h1, h2, h3, h4, h5, h6, p, a{
-		font-size: 24px;
 	}
 }
