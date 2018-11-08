@@ -5,7 +5,7 @@
 }
 
 body{
-	background: #f45844;
+	background: #f43530;
 	padding-top: 1.5em;
 	padding-bottom: 8em;
 	overflow-x: hidden;
@@ -19,7 +19,7 @@ body{
 h1, h2, h3, h4, h5, h6, p, a{
 	font-size: 20px;
 	line-height: 1.4;
-  	color: #2f292b;
+  	color: #0f0a01;
 }
 
 img {
@@ -48,12 +48,12 @@ a, .arrow {
 } 
 
 a:hover {
-	color: #f43530;
+	color: #0098d8;
 	text-decoration: none;
 }
 
 .arrow:hover{
-	color: #f43530;
+	color: #0098d8;
 	text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ ul i, .grey, small, small a {
 	padding-top: 4em;
 }
 
-.cv-row .col-sm-12{
+.cv-row .col-sm-12 .col-xs-12{
 	padding-left: 0;
 }
 
@@ -92,8 +92,17 @@ ul i, .grey, small, small a {
 	padding-bottom: 1em;
 }
 
+.archivework img{
+	margin-bottom: 90px;
+}
+
+.archivework p {
+	margin-top: 65px;
+	margin-bottom: 60px;
+}
+
 @media (max-width: 767px) {
-	.row-sm-12{
+	.cv-row{
 		flex-direction: column;
 	}
 
