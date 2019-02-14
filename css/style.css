@@ -1,25 +1,29 @@
 @font-face {
-    font-family: 'gt_americalight';
-    src: url('../fonts/gt-america-light-webfont.woff2') format('woff2'),
-         url('../fonts/gt-america-light-webfont.woff') format('woff');
+    font-family: 'beautifulfont';
+    src: url('../fonts/Phase-GGX_23-23-56.ttf') format('truetype'),
+         url('../fonts/Phase-GGX_23-23-56.otf') format('opentype');
 }
 
 body{
-	background: #f43530;
+	background: #f54123;
 	padding-top: 1.5em;
 	padding-bottom: 8em;
 	overflow-x: hidden;
-	font-family: 'gt_americalight';
+	font-family: 'beautifulfont';
+}
+
+body.body-home{
+	padding-bottom: 1em;
 }
 
 .container {
 	overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6, p, a{
+h1, h2, h3, h4, h5, h6, p, a, small{
 	font-size: 20px;
 	line-height: 1.4;
-  	color: #0f0a01;
+  	color: #e6c700;
 }
 
 img {
@@ -28,6 +32,7 @@ img {
 }
 
 small {
+	color: #e6c700 !important;
 	font-size: .8rem;
 }
 
@@ -43,17 +48,17 @@ h6 {
 
 
 a, .arrow {
-	color: #e7b300;
+	color: #37bbe4;
 	text-decoration: none;
 } 
 
 a:hover {
-	color: #0098d8;
+	color: #db2f27;
 	text-decoration: none;
 }
 
 .arrow:hover{
-	color: #0098d8;
+	color: #db2f27;
 	text-decoration: none;
 }
 
