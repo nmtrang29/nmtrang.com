@@ -1,12 +1,13 @@
 @font-face {
     font-family: 'beautifulfont';
-    src: url('../fonts/Phase-GGX_23-23-56.ttf') format('truetype'),
-         url('../fonts/Phase-GGX_23-23-56.otf') format('opentype');
+    src: url('../fonts/gt-america-light-webfont.woff') format('truetype'),
+         url('../fonts/gt-america-light-webfont.woff2') format('opentype');
 }
 
 body{
-	background: #f54123;
+	background: #fff;
 	padding-top: 1.5em;
+	padding-left: 1.5em;
 	padding-bottom: 8em;
 	overflow-x: hidden;
 	font-family: 'beautifulfont';
@@ -23,7 +24,7 @@ body.body-home{
 h1, h2, h3, h4, h5, h6, p, a, small{
 	font-size: 20px;
 	line-height: 1.4;
-  	color: #e6c700;
+  	color: #333;
 }
 
 img {
@@ -48,7 +49,7 @@ h6 {
 
 
 a, .arrow {
-	color: #37bbe4;
+	color: #db2f27;
 	text-decoration: none;
 } 
 
